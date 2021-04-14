@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5f0672"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/txtqr"
+            android:text="Michito de la MichiHouse"/>
+
+        <TextView
+            android:id="@+id/iduptitulo"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:text="Muestra tu código QR"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/iddowtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="para recibir pagos"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:id="@+id/iv_qr"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:background="@drawable/cuadro_redondiado" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttitulo"
+            android:text="HOLA YAPERO"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttitulo2"
+            android:text="Ingresa tu clave"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" 
+            android:text=" 0 0 0 0"/>
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="367dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="25dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/idbtn1"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="6"
+                android:background="@drawable/boton_redondo"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/idbtn2"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="7"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/idbtn3"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:text="1"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/idbtn4"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/boton_redondo"
+                android:text="8"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/idbtn5"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="4"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/idbtn6"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="0"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/idbtn7"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="2"
+                android:background="@drawable/boton_redondo"
+                android:layout_marginBottom="7dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/idbtn8"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="9"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/bidbtn9"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="3"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/idbtn10"
+                android:layout_width="115dp"
+                android:layout_height="73dp"
+                android:layout_marginRight="7dp"
+                android:text=""
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/idbtn11"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:text="5"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/idbtn12"
+                android:layout_width="115dp"
+                android:layout_height="73dp"
+                android:layout_marginRight="7dp"
+                android:background="#00FFFFFF"
+                app:icon="@android:drawable/ic_input_delete"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
